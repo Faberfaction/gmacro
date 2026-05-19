@@ -1,0 +1,93 @@
+{
+  "machine_name": "Haas ST-20Y (Custom) (Custom)",
+  "control_type": "Haas Lathe",
+  "default_units": "Imperial",
+  "axis_travel": {
+    "X": 11.0,
+    "Y": 4.0,
+    "Z": 20.0
+  },
+  "max_rapid_ipm": 945.0,
+  "max_feed_ipm": 200.0,
+  "acceleration": {
+    "X": 120.0,
+    "Y": 100.0,
+    "Z": 100.0
+  },
+  "spindle_max_rpm": 4000,
+  "spindle_max_hp": 20.0,
+  "spindles": 2,
+  "max_tools": 12,
+  "lathe_options": {
+    "has_tailstock": false,
+    "has_subspindle": true,
+    "has_y_axis": true,
+    "b_axis_max_z": -18.0,
+    "tailstock_max_z": null
+  },
+  "additional_axes": [
+    "Y"
+  ],
+  "starter_tools": [
+    {
+      "tool_number": "T01",
+      "offset_number": "01",
+      "insert_name": "CNMG 432",
+      "nose_radius": 0.0312,
+      "relief_angle": 7.0,
+      "diameter": 0.0,
+      "corner_radius": 0.0,
+      "helix_angle": 0.0,
+      "flute_length": 0.0,
+      "flute_count": 0,
+      "length_offset": 0.0,
+      "diameter_offset": 0.0,
+      "wear_length_offset": 0.0,
+      "wear_diameter_offset": 0.0,
+      "type": "OD Turning",
+      "notes": "Rough turning - Main spindle"
+    },
+    {
+      "tool_number": "T02",
+      "offset_number": "",
+      "insert_name": "CNMG 432",
+      "nose_radius": 0.0,
+      "relief_angle": 0.0,
+      "diameter": 0.0,
+      "corner_radius": 0.0,
+      "helix_angle": 0.0,
+      "flute_length": 0.0,
+      "flute_count": 0,
+      "length_offset": 0.0,
+      "diameter_offset": 0.0,
+      "wear_length_offset": 0.0,
+      "wear_diameter_offset": 0.0,
+      "type": "OD Turning",
+      "notes": ""
+    },
+    {
+      "tool_number": "T03",
+      "offset_number": "",
+      "insert_name": "CNMG 432",
+      "nose_radius": 0.0,
+      "relief_angle": 0.0,
+      "diameter": 0.0,
+      "corner_radius": 0.0,
+      "helix_angle": 0.0,
+      "flute_length": 0.0,
+      "flute_count": 0,
+      "length_offset": 0.0,
+      "diameter_offset": 0.0,
+      "wear_length_offset": 0.0,
+      "wear_diameter_offset": 0.0,
+      "type": "Boring Bar",
+      "notes": ""
+    }
+  ],
+  "initial_modals": {
+    "absolute": true,
+    "plane": "G18",
+    "diameter_mode": true
+  },
+  "tool_number_format": "T01"
+}

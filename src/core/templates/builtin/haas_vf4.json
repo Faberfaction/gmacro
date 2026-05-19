@@ -1,0 +1,18 @@
+{
+  "machine_name": "Haas VF-4",
+  "control_type": "Haas Mill",
+  "default_units": "Imperial",
+  "axis_travel": { "X": 50.0000, "Y": 20.0000, "Z": 25.0000 },
+  "max_rapid_ipm": 710.0000,
+  "max_feed_ipm": 300.0000,
+  "acceleration": { "X": 150.0000, "Y": 150.0000, "Z": 120.0000 },
+  "spindle_max_rpm": 8100,
+  "spindle_max_hp": 25.0,
+  "spindles": 1,
+  "max_tools": 24,
+  "lathe_options": null,
+  "starter_tools": [
+    { "tool_number": "T1", "diameter": 0.5000, "corner_radius": 0.0000, "helix_angle": 45.0, "flute_length": 1.2500, "flute_count": 4, "length_offset": 0.0000, "type": "end_mill", "notes": "Roughing" }
+  ],
+  "initial_modals": { "absolute": true, "plane": "G17" }
+}

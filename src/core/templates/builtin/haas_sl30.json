@@ -1,0 +1,24 @@
+{
+  "machine_name": "Haas SL-30",
+  "control_type": "Haas Lathe",
+  "default_units": "Imperial",
+  "axis_travel": { "X": 17.0000, "Z": 34.0000 },
+  "max_rapid_ipm": 945.0000,
+  "max_feed_ipm": 200.0000,
+  "acceleration": { "X": 120.0000, "Z": 100.0000 },
+  "spindle_max_rpm": 2400,
+  "spindle_max_hp": 30.0,
+  "spindles": 1,
+  "max_tools": 10,
+  "lathe_options": {
+    "has_tailstock": true,
+    "has_subspindle": false,
+    "b_axis_max_z": null,
+    "tailstock_max_z": -30.0000
+  },
+  "starter_tools": [
+    { "tool_number": "T0101", "insert_name": "CNMG 432", "nose_radius": 0.0312, "relief_angle": 7.0, "length_offset": 0.0000, "type": "turning_insert", "notes": "Roughing" },
+    { "tool_number": "T0202", "insert_name": "VNMG 331", "nose_radius": 0.0150, "relief_angle": 11.0, "length_offset": 0.0000, "type": "turning_insert", "notes": "Finishing" }
+  ],
+  "initial_modals": { "absolute": true, "plane": "G18", "diameter_mode": true }
+}

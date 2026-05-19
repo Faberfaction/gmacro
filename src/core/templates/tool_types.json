@@ -1,0 +1,16 @@
+{
+  "tool_types": [
+    "OD Turning",
+    "ID Boring"
+    "Solid Endmill",
+    "Stubby Twist Drill",
+    "OD Threading",
+    "ID Threading",
+    "OD Grooving",
+    "Face Mill",
+    "Ball Endmill",
+    "HSS Center Drill",
+    "Bullnose Endmill",
+    "Indexible Endmill"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "machine_name": "Haas ST-20Y",
+  "control_type": "Haas Lathe",
+  "default_units": "Imperial",
+  "axis_travel": {"X": 11.0000, "Y": 4.0000, "Z": 20.0000},
+  "max_rapid_ipm": 945.0000,
+  "max_feed_ipm": 200.0000,
+  "acceleration": {"X": 120.0000, "Y": 100.0000, "Z": 100.0000},
+  "spindle_max_rpm": 4000,
+  "spindle_max_hp": 20.0,
+  "spindles": 2,
+  "max_tools": 12,
+  "lathe_options": {
+    "has_tailstock": false,
+    "has_subspindle": true,
+    "has_y_axis": true,
+    "b_axis_max_z": -18.0000,
+    "tailstock_max_z": null
+  },
+  "additional_axes": ["Y"],
+  "starter_tools": [
+    {
+      "tool_number": "T01",
+      "offset_number": "01",
+      "insert_name": "CNMG 432",
+      "nose_radius": 0.0312,
+      "relief_angle": 7.0,
+      "length_offset": 0.0000,
+      "type": "OD Turning",
+      "notes": "Rough turning - Main spindle"
+    }
+  ],
+  "initial_modals": {"absolute": true, "plane": "G18", "diameter_mode": true}
+}

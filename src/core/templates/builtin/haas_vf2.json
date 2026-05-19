@@ -1,0 +1,19 @@
+{
+  "machine_name": "Haas VF-2",
+  "control_type": "Haas Mill",
+  "default_units": "Imperial",
+  "axis_travel": { "X": 30.0000, "Y": 16.0000, "Z": 20.0000 },
+  "max_rapid_ipm": 710.0000,
+  "max_feed_ipm": 300.0000,
+  "acceleration": { "X": 150.0000, "Y": 150.0000, "Z": 120.0000 },
+  "spindle_max_rpm": 8100,
+  "spindle_max_hp": 20.0,
+  "spindles": 1,
+  "max_tools": 16,
+  "lathe_options": null,
+  "starter_tools": [
+    { "tool_number": "T1", "diameter": 0.5000, "corner_radius": 0.0000, "helix_angle": 45.0, "flute_length": 1.2500, "flute_count": 4, "length_offset": 0.0000, "type": "end_mill", "notes": "Roughing" },
+    { "tool_number": "T2", "diameter": 0.3750, "corner_radius": 0.0625, "helix_angle": 35.0, "flute_length": 1.0000, "flute_count": 3, "length_offset": 0.0000, "type": "end_mill", "notes": "Semi-finish" }
+  ],
+  "initial_modals": { "absolute": true, "plane": "G17" }
+}
